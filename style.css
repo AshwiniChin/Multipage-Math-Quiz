@@ -1,0 +1,27 @@
+body{
+    background-color: lemonchiffon;
+    text-align: center;
+}
+
+input{
+    width:200px;
+    height:25px;
+    margin: 20px;
+}
+button{
+    padding: 5px;
+    width:100px;
+    background-color: lightcoral;
+}
+
+#quiz{
+    display: none;
+    background-color: lightcyan;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+#logout{
+    float: right;
+    margin-right: 10px;   
+}

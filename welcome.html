@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Multipage Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome <span id="userName"></span></h1>
+    <button id ="logout" onclick="logout()">Logout</button>
+    <br>
+    <button onclick="start()">Start Quiz</button>
+    <p>Note * Click start Quiz to get new question</p>
+    <br><br>
+    <div id="quiz">
+        <h4 id="message"></h4>
+        <h3 id="que"></h3>
+        <input type="text" id="ans">
+        <br><br>
+        <button onclick="check()">Check</button>
+    </div>
+</body>
+
+<script src="welcome.js"></script>
+
+</html>
